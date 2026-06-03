@@ -1,0 +1,32 @@
+# Sistema de Gestão de Funcionários
+
+Projeto desenvolvido em Python com o objetivo de gerenciar informações de funcionários de forma simples e organizada. A aplicação permite cadastrar colaboradores, consultar registros e realizar análises salariais por meio de um menu interativo no terminal.
+
+## Funcionalidades
+
+* Cadastro de funcionários
+* Listagem de funcionários cadastrados
+* Cálculo da média salarial
+* Identificação do maior salário
+* Identificação do menor salário
+* Tratamento de erros para entradas inválidas
+* Código estruturado com funções para facilitar manutenção e evolução
+
+## Tecnologias Utilizadas
+
+* Python 3
+* Programação Estruturada
+* Manipulação de listas e dicionários
+* Tratamento de exceções
+
+## Objetivo do Projeto
+
+Este projeto foi desenvolvido com foco no aprendizado e na prática de conceitos fundamentais de programação em Python, como funções, estruturas de repetição, condicionais, manipulação de dados e organização de código. Além disso, busca simular um sistema simples de gerenciamento de funcionários, aplicando conhecimentos adquiridos durante meus estudos em Análise e Desenvolvimento de Sistemas.
+
+## Melhorias Futuras
+
+* Edição de funcionários cadastrados
+* Exclusão de registros
+* Armazenamento dos dados em arquivo ou banco de dados
+* Interface gráfica
+* Relatórios mais detalhados
