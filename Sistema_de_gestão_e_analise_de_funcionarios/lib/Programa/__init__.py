@@ -1,7 +1,7 @@
 import datetime
 import random
 
-from Jefferson_Simplicio_Portfólio_Dev.Cadastro_de_Funcionarios.lib.interface import linhas, vazio
+from Jefferson_Simplicio_Portfólio_Dev.Sistema_de_gestão_e_analise_de_funcionarios.lib.interface import linhas, vazio
 
 quadro_de_funcionarios = []
 
