@@ -1,0 +1,80 @@
+# Sistema Bancário em Python
+
+## Sobre o Projeto
+
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de programação utilizando Python.
+
+O sistema simula operações bancárias básicas por meio de um menu interativo no terminal, permitindo ao usuário realizar depósitos, saques e consultar o extrato da conta.
+
+Durante o desenvolvimento foram aplicados conceitos como funções, estruturas condicionais, listas, tratamento de exceções e regras de negócio.
+
+---
+
+## Funcionalidades
+
+### Depósito
+
+* Realização de depósitos em conta.
+* Validação para impedir valores negativos.
+* Atualização automática do saldo.
+* Registro das operações realizadas.
+
+### Saque
+
+* Limite máximo de 3 saques por dia.
+* Valor máximo de R$ 500,00 por saque.
+* Limite diário total de R$ 500,00.
+* Verificação de saldo disponível antes da operação.
+* Registro dos saques realizados.
+
+### Extrato
+
+* Exibição de todos os depósitos realizados.
+* Exibição de todos os saques realizados.
+* Exibição do saldo atual da conta.
+
+### Tratamento de Erros
+
+* Validação de entradas numéricas.
+* Tratamento de interrupções do usuário (`CTRL + C`).
+* Mensagens informativas para operações inválidas.
+
+---
+
+## Tecnologias Utilizadas
+
+* Python 3
+
+---
+
+## Conceitos Aplicados
+
+* Variáveis e tipos de dados
+* Estruturas condicionais (`if`, `elif`, `else`)
+* Estruturas de repetição
+* Funções
+* Listas
+* Manipulação de dados
+* Tratamento de exceções (`try`, `except`)
+* Modularização de código
+* Regras de negócio
+
+---
+
+## Melhorias Futuras
+
+* Implementação de orientação a objetos.
+* Cadastro de múltiplos usuários.
+* Persistência de dados com JSON ou banco de dados.
+* Histórico completo de transações.
+* Interface gráfica.
+* API REST para operações bancárias.
+
+---
+
+## Autor
+
+Jefferson Simplicio
+
+Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por desenvolvimento de software.
+O esforço sempre vence o talento!
