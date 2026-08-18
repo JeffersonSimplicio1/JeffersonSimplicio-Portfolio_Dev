@@ -1,12 +1,12 @@
 # Sistema Bancário em Python
 
-## Sobre o Projeto
+## Descrição
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de programação utilizando Python.
+Este projeto consiste em um sistema bancário desenvolvido em Python com o objetivo de praticar conceitos fundamentais de programação e orientação a objetos.
 
-O sistema simula operações bancárias básicas por meio de um menu interativo no terminal, permitindo ao usuário realizar depósitos, saques e consultar o extrato da conta.
+O sistema permite que um usuário realize operações bancárias básicas por meio de um menu interativo no terminal, incluindo depósitos, saques e consulta de extrato.
 
-Durante o desenvolvimento foram aplicados conceitos como funções, estruturas condicionais, listas, tratamento de exceções e regras de negócio.
+O projeto foi desenvolvido como parte dos meus estudos em Análise e Desenvolvimento de Sistemas, aplicando conceitos de lógica de programação, tratamento de exceções e modelagem orientada a objetos.
 
 ---
 
@@ -14,67 +14,106 @@ Durante o desenvolvimento foram aplicados conceitos como funções, estruturas c
 
 ### Depósito
 
-* Realização de depósitos em conta.
-* Validação para impedir valores negativos.
+* Realizar depósitos em conta.
+* Validação de valores inválidos.
 * Atualização automática do saldo.
-* Registro das operações realizadas.
+* Registro de todos os depósitos realizados.
 
 ### Saque
 
 * Limite máximo de 3 saques por dia.
-* Valor máximo de R$ 500,00 por saque.
+* Limite de R$ 500,00 por saque.
 * Limite diário total de R$ 500,00.
-* Verificação de saldo disponível antes da operação.
-* Registro dos saques realizados.
+* Verificação de saldo disponível.
+* Registro de todos os saques realizados.
 
 ### Extrato
 
-* Exibição de todos os depósitos realizados.
-* Exibição de todos os saques realizados.
-* Exibição do saldo atual da conta.
+* Exibição dos dados da conta.
+* Histórico de depósitos.
+* Histórico de saques.
+* Exibição do saldo atual.
 
 ### Tratamento de Erros
 
 * Validação de entradas numéricas.
-* Tratamento de interrupções do usuário (`CTRL + C`).
-* Mensagens informativas para operações inválidas.
-
----
-
-## Tecnologias Utilizadas
-
-* Python 3
+* Tratamento de exceções com `try/except`.
+* Encerramento seguro do programa pelo usuário.
 
 ---
 
 ## Conceitos Aplicados
 
-* Variáveis e tipos de dados
-* Estruturas condicionais (`if`, `elif`, `else`)
-* Estruturas de repetição
-* Funções
+* Programação Orientada a Objetos (POO)
+* Classes e Objetos
+* Encapsulamento
+* Métodos
+* Construtores (`__init__`)
 * Listas
-* Manipulação de dados
-* Tratamento de exceções (`try`, `except`)
-* Modularização de código
-* Regras de negócio
+* Estruturas Condicionais
+* Tratamento de Exceções
+* Modularização de Código
+* Regras de Negócio
+
+---
+
+## Classe Principal
+
+### Conta
+
+A classe `Conta` é responsável por gerenciar todas as operações bancárias do sistema.
+
+#### Atributos
+
+* `nome_usuario`
+* `numero_conta`
+* `saldo_conta`
+* `depositos`
+* `saques`
+
+#### Métodos
+
+* `depositar()`
+* `sacar()`
+* `ver_extrato()`
+* `opcao()`
+* `finalizar_programa()`
 
 ---
 
 ## Melhorias Futuras
 
-* Implementação de orientação a objetos.
-* Cadastro de múltiplos usuários.
-* Persistência de dados com JSON ou banco de dados.
-* Histórico completo de transações.
+* Cadastro de múltiplos clientes.
+* Criação de classe `Cliente`.
+* Persistência de dados em JSON.
+* Integração com SQLite.
+* Transferência entre contas.
+* Histórico detalhado de transações.
 * Interface gráfica.
 * API REST para operações bancárias.
 
 ---
 
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes para a construção de aplicações reais, como organização de código, modelagem de objetos, tratamento de erros e implementação de regras de negócio.
+
+Este projeto representa minha evolução da programação procedural para a programação orientada a objetos utilizando Python.
+
+---
+
 ## Autor
 
-Jefferson Simplicio
+**Jefferson Simplicio**
 
-Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por desenvolvimento de software.
-O esforço sempre vence o talento!
+Estudante de Análise e Desenvolvimento de Sistemas.
+
+Conhecimentos em:
+
+* Python
+* Java
+* JavaScript
+* HTML5
+* CSS3
+
+Apaixonado por desenvolvimento de software e aprendizado contínuo.
